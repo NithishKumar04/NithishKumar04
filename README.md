@@ -12,6 +12,22 @@ I build **failure-aware backend systems** and connect them to focused product
 experiences. My work emphasizes durable workflows, clear service boundaries,
 and observable operations.
 
+## Generative AI systems
+
+I design AI workflows that are grounded, evaluated, and deployable.
+
+- **Grounded retrieval:** conversation-aware PDF question answering with hybrid
+  FAISS + BM25 retrieval, rank fusion, citation validation, and evidence
+  sufficiency checks
+- **Structured generation:** Wikipedia-grounded quiz generation with
+  schema-constrained outputs, source validation, duplicate rejection, and
+  explainable ranking
+- **Multimodal ML delivery:** infrared and visible-light image fusion behind
+  FastAPI, with durable S3/SQS/DynamoDB jobs and autoscaling EKS deployment
+
+**Current direction:** safe agentic commerce for product discovery and order
+operations, using scoped tools, approval gates, audit logs, and regression evals.
+
 ## Featured system
 
 ### [OrderFlow — event-driven commerce platform](https://github.com/NithishKumar04/orderflow-platform)
